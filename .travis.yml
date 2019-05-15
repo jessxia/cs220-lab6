@@ -12,12 +12,6 @@ language: c
 
 compiler: gcc
 
-hello:build:
-  include:
-    - stage: build
-      script: make
-      
-hello:test:
-  include:
-    - stage: test
-      script: ./hello
+script: 
+  - make
+  - ./hello
