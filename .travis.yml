@@ -1,8 +1,4 @@
-dist: xenial
-addons:
-  apt:
-    packages:
-      - libyaml-dev
+
 
 branches:
   only:
