@@ -9,5 +9,4 @@ language: c
 compiler: gcc
 
 script: 
-  - make
-  - ./hello
+  - make clean all tests
